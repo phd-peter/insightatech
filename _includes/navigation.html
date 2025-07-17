@@ -28,7 +28,10 @@
             <li class="nav-item pe-2 ps-2">
               <a class="nav-link page-scroll" href="#{{ p[1] }}">{{ p[0] }}</a>
             </li>
-          {% endfor %} 
+          {% endfor %}
+          <li class="nav-item pe-2 ps-2">
+            <a class="nav-link" href="{{site.url}}/privacy">Privacy</a>
+          </li>
         {% else %} 
         {% for p in site.pages_list %}
           <li class="nav-item pe-2 ps-2">
@@ -40,7 +43,10 @@
           <a class="nav-link pe-2 ps-2" href="{{site.url}}/#{{ p[1] }}">{{ p[0] }}</a>
             {% endif %}
           </li>
-          {% endfor %} 
+          {% endfor %}
+          <li class="nav-item pe-2 ps-2">
+            <a class="nav-link" href="{{site.url}}/privacy">Privacy</a>
+          </li>
         {% endif %}
       </ul>
     </div>

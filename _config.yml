@@ -11,9 +11,9 @@ google-tracking-id: ""
 #############
 
 lang: "ko"
-author: "Your Name"
-title: "{ Your Name }"
-description: "개발자 포트폴리오 및 블로그입니다."
+author: "Dev_Ilsan"
+title: "{ 개발일산 }"
+description: "개발일산의 블로그입니다."
 keywords: "developer, portfolio, blog, jekyll"
 favicon: "/img/favicon.ico"
 
@@ -27,7 +27,7 @@ background-img: "intro-bg.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-quote: "안녕하세요! 개발자입니다."
+quote: "안녕하세요! 고양시 일산에서 개발하는 개발일산입니다."
 me-img: "/img/jetpacktocat.png"
 
 #######
@@ -74,7 +74,7 @@ email: "your@email.com"
 ################
 
 author_blurb_image: "/img/author.png"
-author_blurb: "개발에 관심이 많은 사람입니다. 새로운 기술을 배우고 적용하는 것을 좋아합니다."
+author_blurb: "AI를 통한 자동화 개발에 관심이 많은 사람입니다. 새로운 기술을 배우고 적용하는 것을 좋아합니다."
 
 ##################
 # Social Buttons #
@@ -82,7 +82,7 @@ author_blurb: "개발에 관심이 많은 사람입니다. 새로운 기술을 �
 
 social:
   - icon: "github"
-    url: "https://github.com/yourusername"
+    url: "https://github.com/phd-peter"
   - icon: "linkedin-in"
     url: "https://www.linkedin.com/in/yourusername"
   - icon: "x-twitter"

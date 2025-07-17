@@ -690,3 +690,58 @@ body {
   margin-left: auto; /* Center the block */
   margin-right: auto; /* Center the block */
 }
+
+/* Privacy Policy Styles */
+#privacy {
+  padding: 100px 0;
+  
+  .privacy-content {
+    margin-top: 30px;
+    
+    h3 {
+      color: $secondary-color;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    
+    p {
+      margin-bottom: 15px;
+      line-height: 1.8;
+    }
+    
+    ul {
+      margin: 15px 0;
+      padding-left: 30px;
+      
+      li {
+        margin-bottom: 8px;
+        line-height: 1.6;
+      }
+    }
+    
+    .contact-info {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 8px;
+      margin: 20px 0;
+      
+      p {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #privacy {
+    padding: 50px 0;
+    
+    .privacy-content {
+      h3 {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
